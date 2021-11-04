@@ -43,6 +43,9 @@ call dein#add('/home/okamoto/.cache/dein/repos/github.com/Shougo/dein.vim')
 " Add or remove your plugins here like this:
 "call dein#add('Shougo/neosnippet.vim')
 "call dein#add('Shougo/neosnippet-snippets')
+call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
+call dein#add('airblade/vim-gitgutter')
 
 " Required:
 call dein#end()
@@ -50,11 +53,6 @@ call dein#end()
 " Required:
 filetype plugin indent on
 syntax enable
-
-" Plugins
-call dein#add('vim-airline/vim-airline')
-call dein#add('vim-airline/vim-airline-themes')
-call dein#add('airblade/vim-gitgutter')
 
 " If you want to install not installed plugins on startup.
 if dein#check_install()
