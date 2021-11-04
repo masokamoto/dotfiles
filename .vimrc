@@ -1,3 +1,30 @@
+" Vim settings
+set fenc=utf-8
+set nobackup
+set noswapfile
+set autoread
+set showcmd
+
+" Visual settings
+set number
+set cursorline
+set showmatch
+set laststatus=2
+set cmdheight=2
+set ruler
+syntax enable
+
+" Tab settings
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" Search settings
+set hlsearch
+set ignorecase
+set incsearch
+set smartcase
+
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
