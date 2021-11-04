@@ -51,8 +51,10 @@ call dein#end()
 filetype plugin indent on
 syntax enable
 
+" Plugins
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
+call dein#add('airblade/vim-gitgutter')
 
 " If you want to install not installed plugins on startup.
 if dein#check_install()
