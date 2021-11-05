@@ -34,11 +34,11 @@ endif
 set runtimepath+=/home/okamoto/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('/home/okamoto/.cache/dein')
+call dein#begin('$HOME/.cache/dein')
 
 " Let dein manage dein
 " Required:
-call dein#add('/home/okamoto/.cache/dein/repos/github.com/Shougo/dein.vim')
+call dein#add('$HOME/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 " Add or remove your plugins here like this:
 "call dein#add('Shougo/neosnippet.vim')
